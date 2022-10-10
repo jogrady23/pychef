@@ -6,7 +6,9 @@ Anyone can cooooook
 
 Start by running `pip install -r requirements.txt`
 
-Next, open `pychef.ipynb` and run the cells!
+Next, run `jupyter lab` to launch the Jupyter Lab console.
+
+Finally, open `pychef.ipynb` and run the cells!
 
 ## Adding more meals
 
