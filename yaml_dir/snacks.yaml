@@ -1,11 +1,11 @@
 ---
 # Template
-template:
-  name: template
-  ingredients:
-    - template
-  essentials: template
-  time: 0
+#template:
+#  name: template
+#  ingredients:
+#    - template
+#  essentials: template
+#  time: 0
 
 # Edit
 bite_fruit:

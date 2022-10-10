@@ -1,17 +1,17 @@
 ---
 # Template
-template:
-  name: template
-  ingredients:
-    - template
-  essentials:
-    - template
-  time: 0
-  satisfies:
-    - breakfast
-    - lunch
-    - dinner
-  min_quantity: 2
+#template:
+#  name: template
+#  ingredients:
+#    - template
+#  essentials:
+#    - template
+#  time: 0
+#  satisfies:
+#    - breakfast
+#    - lunch
+#    - dinner
+#  min_quantity: 2
 
 # Edit
 
@@ -59,10 +59,9 @@ ahi_tuna_bowl:
     - japanese bbq sauce
   time: 0
   satisfies:
-    - breakfast
     - lunch
     - dinner
-  min_quantity: 2
+  min_quantity: 1
 
 thai_salad:
   name: thai salad
@@ -107,11 +106,11 @@ strawberry_salad:
         - pecans
         - walnuts
     - goat cheese
-    - balsamic vinaigrette
     - options:
         - spring salad mix
         - spinach and argulua salad mix
-  essentials: null
+  essentials:
+    - balsamic vinaigrette
   time: 20
   satisfies:
     - lunch
@@ -270,5 +269,5 @@ shrimp_pad_thai:
   time: 60
   satisfies:
     - dinner
-  min_quantity: 1
+  min_quantity: 2
 
