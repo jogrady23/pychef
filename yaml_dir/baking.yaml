@@ -1,0 +1,26 @@
+---
+# Template
+#template:
+#  name: template
+#  ingredients:
+#    - template
+#  essentials:
+#    - template
+#  time: 30
+
+# Edit
+banana_bread:
+  name: banana bread
+  ingredients:
+    - banana
+    - chocolate chips
+    - eggs
+  essentials:
+    - butter
+    - vanilla
+    - flour
+    - granulated sugar
+    - baking soda
+    - salt
+    - cinnamon
+  time: 60
