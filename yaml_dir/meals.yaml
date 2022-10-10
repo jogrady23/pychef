@@ -1,0 +1,274 @@
+---
+# Template
+template:
+  name: template
+  ingredients:
+    - template
+  essentials:
+    - template
+  time: 0
+  satisfies:
+    - breakfast
+    - lunch
+    - dinner
+  min_quantity: 2
+
+# Edit
+
+# Breakast or Lunch
+avocado_toast:
+  name: avocado toast
+  ingredients:
+    - avocado
+    - french baby boule
+    - options:
+        - eggs
+  essentials: null
+  time: 5
+  satisfies:
+    - breakfast
+    - lunch
+  min_quantity: 2
+
+yogurt_with_berries:
+  name: yogurt with berries
+  ingredients:
+    - greek yogurt
+    - granola
+    - strawberries
+    - options:
+        - raspberries
+        - blueberries
+        - blackberries
+  essentials: null
+  time: 5
+  satisfies:
+    - breakfast
+  min_quantity: 2
+
+# Lunch
+
+# Lunch or Dinner
+ahi_tuna_bowl:
+  name: ahi tuna bowl
+  ingredients:
+    - ahi tuna
+    - kale
+    - brown rice
+  essentials:
+    - japanese bbq sauce
+  time: 0
+  satisfies:
+    - breakfast
+    - lunch
+    - dinner
+  min_quantity: 2
+
+thai_salad:
+  name: thai salad
+  ingredients:
+    - chicken
+    - peanuts
+    - peanut sauce
+    - spring salad mix
+    - pickeled onions
+    - brown rice
+    - green onion
+  essentials: null
+  time: 30
+  satisfies:
+    - lunch
+    - dinner
+  min_quantity: 2
+
+southwest_salad:
+  name: southwest salad
+  ingredients:
+    - chicken
+    - avocado
+    - ranch
+    - orange bell pepper
+    - red onion
+    - cucumber
+  essentials: null
+  time: 20
+  satisfies:
+    - lunch
+    - dinner
+  min_quantity: 2
+
+strawberry_salad:
+  name: strawberry fields salad
+  ingredients:
+    - chicken
+    - strawberries
+    - blueberries
+    - options:
+        - pecans
+        - walnuts
+    - goat cheese
+    - balsamic vinaigrette
+    - options:
+        - spring salad mix
+        - spinach and argulua salad mix
+  essentials: null
+  time: 20
+  satisfies:
+    - lunch
+    - dinner
+  min_quantity: 2
+
+tacos:
+  name: tacos
+  ingredients:
+    - options:
+        - chicken
+        - shrimp
+    - tortillas
+    - limes
+    - cilantro
+    - options:
+        - jalapeno pepper
+        - serrano pepper
+    - green onion
+    - sour cream
+    - red bell pepper
+    - orange bell pepper
+    - red onion
+    - shallots
+  essentials:
+    - sunflower oil
+    - cinnamon
+    - oregano
+    - chile powder
+    - cayenne
+    - paprika
+    - salt
+  time: 45
+  satisfies:
+    - lunch
+    - dinner
+  min_quantity: 2
+
+banh_mi:
+  name: banh mi
+  ingredients:
+    - pork tenderloin
+    - baguette
+    - radish
+    - carrots
+    - cilantro
+  essentials:
+    - hoisin sauce
+    - fish sauce
+    - rice wine vinegar
+    - garlic
+    - mayonnaise
+  time: 60
+  satisfies:
+    - lunch
+    - dinner
+  min_quantity: 2
+
+korean_bowl:
+  name: korean steak bowl
+  ingredients:
+    - flank steak
+    - brown rice
+    - kimchi
+    - kale
+  essentials:
+    - japanese bbq sauce
+  time: 30
+  satisfies:
+    - lunch
+    - dinner
+  min_quantity: 2
+
+# Dinner
+pesto_pasta:
+  name: pesto pasta
+  ingredients:
+    - pesto sauce
+    - yellow onion
+    - spinach
+    - options:
+        - chicken
+        - sausage
+    - options:
+        - spaghetti
+        - fetuccini
+        - fucilli
+  essentials:
+    - olive oil
+  time: 30
+  satisfies:
+    - dinner
+  min_quantity: 2
+
+samin_pasta:
+  name: samin pasta
+  ingredients:
+    - canned san marzano tomatoes
+    - bucatini noodles
+    - yellow onion
+    - sausage
+    - basil leaves
+  essentials:
+    - olive oil
+  time: 60
+  satisfies:
+    - dinner
+  min_quantity: 2
+
+slow_roasted_salmon:
+  name: slow-roasted salmon
+  ingredients:
+    - options:
+        - atlantic salmon
+        - sockeye salmon
+    - dill
+    - cilantro
+    - options:
+        - asparagus
+        - brussel sprouts
+        - salad
+    - options:
+        - bread
+        - risotto:
+            - butter
+            - white wine
+            - arbrorio rice
+            - chicken stock
+            - parmesan
+            - mushroom
+  essentials:
+    - olive oil
+    - parchment paper
+  time: 60
+  satisfies:
+    - dinner
+  min_quantity: 1
+
+shrimp_pad_thai:
+  name: shrimp pad thai
+  ingredients:
+    - shrimp
+    - rice noodles
+    - peanuts
+    - peanut butter
+    - eggs
+    - cilantro
+    - red bell pepper
+    - red bell pepper
+  essentials:
+    - sriracha
+    - fish sauce
+    - soy sauce
+    - brown sugar
+    - rice vinegar
+  time: 60
+  satisfies:
+    - dinner
+  min_quantity: 1
+

@@ -1,0 +1,61 @@
+---
+# Template
+template:
+  name: template
+  ingredients:
+    - template
+  essentials: template
+  time: 0
+
+# Edit
+bite_fruit:
+  name: fruit to bite into
+  ingredients:
+    - options:
+        - fuji apple
+        - pluot
+  essentials: null
+  time: 0
+
+nibble_fruit:
+  name: fruit to nibble on
+  ingredients:
+    - options:
+        - cherries
+        - red grapes
+        - green grapes
+  essentials: null
+  time: 0
+
+carrots_with_hummus:
+  name: carrots with hummus
+  ingredients:
+    - carrots
+    - options:
+        - roasted red pepper hummus
+        - cilantro and jalapeno hummus
+        - sprouted hummus
+  essentials: null
+  time: 0
+
+oatmeal:
+  name: oatmeal
+  ingredients:
+    - apple cinnamon oatmeal
+  essentials: null
+  time: 2
+
+smoothie:
+  name: fruit smoothie
+  ingredients:
+    - frozen strawberries
+    - frozen blueberries
+    - greek yogurt
+    - peanut butter
+    - milk
+    - orange juice
+    - banana
+  essentials:
+    - cinnamon
+    - ginger
+  time: 3
